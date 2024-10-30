@@ -1,0 +1,65 @@
+html {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    padding: 0;
+  }
+  .logo--image {
+    align-items: center;
+  }
+  .logo--text {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .title--logo {
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 15%;
+    max-width: 150px;
+    object-fit: cover;
+    margin: auto;
+  }
+  .menu--container {
+    display: flex;
+    justify-content: center;
+  }
+  .menu--list {
+    text-align: center;
+    width: 40%;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .top-menu {
+    display: flex;
+    width: 100%;
+  }
+  .menu--text-box {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu--text{
+    font-size: 1em;
+  }
+  .menu--text-box a{
+    text-decoration: none;
+    color: black;
+  }

@@ -2,163 +2,34 @@
 <html lang="ja">
   <head>
     <title>美術部 ホームページ</title>
-    <style>
-      .body {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-      }
-      .top {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 2.5em;
-      }
-      .logo--image {
-        align-items: center;
-      }
-      .logo--text {
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-      }
-      .menu--container {
-        display: flex;
-        justify-content: center;
-      }
-      .menu--list {
-        text-align: center;
-        width: 90%;
-        height: 3em;
-        display: flex;
-        justify-content: space-between;
-      }
-      .menu--text-box {
-        width: 100%;
-        height: 3em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .menu--text{
-        font-size: 1em;
-      }
-      .menu--text-box a{
-        text-decoration: none;
-        color: black;
-      }
-      .container {
-        width: 100%;
-        min-height: 100vh;
-      }
-      .images--box {
-        width: 80%;
-        height: 60vh;
-        border: 1px solid gray;
-        margin-top: 2em;
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-        overflow: hidden;
-      }
-      .main--image {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        animation: fadeInOut 16s infinite;
-      }
-      .slide--round {
-        padding-left: 45%;
-        padding-right: 45%;
-        margin-top: 0.5em;
-        display: flex;
-        width: auto;
-        height: 2em;
-        margin-right: auto;
-        margit-left: auto;
-      }
-      .basic--round {
-        width: 10px;
-        height: 10px;
-        margin-right: 5px;
-        border-radius: 50%;
-        background-color: #cccccc;
-      }
-      .src1 { background-color: red; animation-delay: 0s; }
-      .src2 { background-color: green; animation-delay: 4s; }
-      .src3 { background-color: blue; animation-delay: 8s; }
-      .src4 { background-color: black; animation-delay: 12s; }
-
-      /* アニメーション設定 */
-      @keyframes fadeInOut {
-        0%, 50%, 95%{
-          opacity: 0;
-          transform: translate(0, 0);
-        }
-        10%, 25% {
-          opacity: 1;
-        }
-      }
-      .base--round {
-        animation: slideround 16s infinite;
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: #000000;
-      }
-      
-      .round1 { animation-delay: 0s; }
-      .round2 { animation-delay: 4s; }
-      .round3 { animation-delay: 8s; }
-      .round4 { animation-delay: 12s; }
-      
-      @keyframes slideround {
-        10%, 25%{
-          transform: translate(0, 0);
-        }
-        40%, 50% {
-          transform: translate(15px, 0);
-        }
-        65%, 75% {
-          transform: translate(30px, 0);
-        }
-        90%, 100%, 0% {
-          transform: translate(45px, 0);
-        }
-      }
-    </style>
+    <link href="./css/mainpage-css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/mainpage-css/slideimg.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="top">
-      <img src="./src/logo.png" class="logo--img">
-      <span class="logo--text">artclub</span>
+      <img src="./img/logo.png" class="logo--img">
+      <img src="./img/title.png" class="title--logo">
     </div>
-    <div class="menu--container">
-      <div class="menu--list">
-        <div class="menu--text-box">
-          <a href="./">
-          	<span class="menu--text">ほけん</span>
-          </a>
-        </div>
-        <div class="menu--text-box">
-          <a href="./">
-            <span class="menu--text">ほけん</span>
-          </a>
-        </div>
-        <div class="menu--text-box">
-          <a href="./">
-            <span class="menu--text">ほけん</span>
-          </a>
-        </div>        
-        <div class="menu--text-box">
-          <a href="./">
-            <span class="menu--text">ほけん</span>
-          </a>
-        </div>
+    <div class="menu--list">
+      <div class="menu--text-box">
+        <a href="./">
+          <span class="menu--text">ほけん</span>
+        </a>
+      </div>
+      <div class="menu--text-box">
+        <a href="./">
+          <span class="menu--text">ほけん</span>
+        </a>
+      </div>
+      <div class="menu--text-box">
+        <a href="./">
+          <span class="menu--text">ほけん</span>
+        </a>
+      </div>        
+      <div class="menu--text-box">
+        <a href="./">
+          <span class="menu--text">ほけん</span>
+        </a>
       </div>
     </div>
     <div class="container">
